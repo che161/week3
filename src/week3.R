@@ -1,0 +1,5 @@
+#installed.package("tidyverse")
+library(tidyverse)
+read_csv("data/OveatingDwellings.csv")
+overheat <- read_csv("data/OveatingDwellings.csv")
+summarise(mean("Orig-criteria"),mean("Relax-criteria"))
