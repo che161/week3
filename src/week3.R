@@ -150,6 +150,9 @@ rough_plot +
     axis.line = element_line(colour = "blue", size = 0.5)
   )
 
+ggsave("fig/myfirstplot.png", plot = rough_plot, width = 12,
+       height = 10, units = "cm")
+
 
 ?geom_point
 
