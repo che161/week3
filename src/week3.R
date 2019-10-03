@@ -1,5 +1,6 @@
 #installed.package("tidyverse")
 library(tidyverse)
-read_csv("data/OveatingDwellings.csv")
-overheat <- read_csv("data/OveatingDwellings.csv")
-summarise(mean("Orig-criteria"),mean("Relax-criteria"))
+read_csv("data/gapminder_data.csv")
+gapminder_1977 <- read_csv("data/gapminder_data.csv") %>% 
+  filter(year == 1977)
+gapminder_1977
